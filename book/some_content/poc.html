@@ -194,6 +194,13 @@
     </style>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const visualizationContainer = document.getElementById("my_datavisualization");
+            visualizationContainer.style.transform = "translateX(-5%)";
+        });
+    </script>
+
+    <script>
         // Configuration object for the visualization
         const CONFIG = {
             defaultParams: {
