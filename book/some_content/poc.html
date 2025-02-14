@@ -199,7 +199,6 @@
             visualizationContainer.style.transform = "translateX(-5%)";
         });
     </script>
-
     <script>
         // Configuration object for the visualization
         const CONFIG = {
@@ -737,7 +736,19 @@
             <div class="controls-container">
                 <!-- Statistics Section -->
                 <div class="stats-section">
-                    <h3>Control Panel</h3>
+                    <h3>Statistics</h3>
+                    <div class="stat-item">
+                        <span class="stat-label">Mean (X1, X2):</span>
+                        <span class="stat-value" id="meanValue">0.00, 0.00</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Std Dev X1:</span>
+                        <span class="stat-value" id="stdX1Value">1.00</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Std Dev X2:</span>
+                        <span class="stat-value" id="stdX2Value">1.00</span>
+                    </div>
                 </div>
 
                 <!-- Sliders -->
